@@ -1,9 +1,10 @@
 module Hello (
-    convertWithOpts
+    convertWithOpts,
+    Opt(..)
     ) where 
 import Prelude
 import qualified System.IO as IO (Newline(..))
 
-convertWithOpts :: Opt -> IO ()
+convertWithOpts :: Integer -> IO ()
 convertWithOpts opts = do
-    
+    return 3
